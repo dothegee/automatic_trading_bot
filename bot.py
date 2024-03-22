@@ -136,10 +136,11 @@ class Bot(QThread):
         self.isRunning = False
 
         """
-        private API 객체
+        private API !!!!!!!!!!!
+        git 올리기 전에 제거!!!
         """
-        access = 'f7DNv0DBpOGWjcy5VP7IBGKVEVUnAVRjuQ1w7qMx'
-        secret = 'xHsQstoxkoX9KLjWQmW3xlxvQk1j9wnKyxzSxhvp'
+        access = ''
+        secret = ''
         self.upbit = pyupbit.Upbit(access, secret)
 
         """
